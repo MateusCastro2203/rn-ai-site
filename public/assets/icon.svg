@@ -1,0 +1,23 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chip base -->
+  <rect x="10" y="10" width="40" height="40" rx="8" fill="#0F172A"/>
+
+  <!-- React Native logo -->
+  <g transform="translate(18 18) scale(0.5)">
+    <circle cx="24" cy="24" r="4" fill="#61DAFB"/>
+    <g stroke="#61DAFB" stroke-width="2" fill="none">
+      <ellipse cx="24" cy="24" rx="11" ry="21" transform="rotate(0 24 24)"/>
+      <ellipse cx="24" cy="24" rx="11" ry="21" transform="rotate(60 24 24)"/>
+      <ellipse cx="24" cy="24" rx="11" ry="21" transform="rotate(120 24 24)"/>
+    </g>
+  </g>
+
+  <!-- Chip pins -->
+  <line x1="10" y1="20" x2="4" y2="20" stroke="#0F172A" stroke-width="2"/>
+  <line x1="10" y1="30" x2="4" y2="30" stroke="#0F172A" stroke-width="2"/>
+  <line x1="10" y1="40" x2="4" y2="40" stroke="#0F172A" stroke-width="2"/>
+  
+  <line x1="50" y1="20" x2="56" y2="20" stroke="#0F172A" stroke-width="2"/>
+  <line x1="50" y1="30" x2="56" y2="30" stroke="#0F172A" stroke-width="2"/>
+  <line x1="50" y1="40" x2="56" y2="40" stroke="#0F172A" stroke-width="2"/>
+</svg>

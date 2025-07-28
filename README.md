@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# @rn-ai-optimize Website
 
-## Getting Started
+Site moderno e responsivo para showcasing do pacote NPM @rn-ai-optimize, uma ferramenta de otimização de telas React Native com IA.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Next.js 15** - Framework React para produção
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Framework de CSS utilitário
+- **Lucide React** - Ícones modernos
+- **next-themes** - Suporte a modo escuro/claro
+
+## 📋 Funcionalidades
+
+- ✅ Header sticky com navegação responsiva
+- ✅ Seção hero com call-to-action
+- ✅ Seção de features com cards interativos
+- ✅ Demonstração com terminal animado
+- ✅ Seção de instalação com comandos copiáveis
+- ✅ Footer com links úteis
+- ✅ Modo escuro/claro
+- ✅ Design totalmente responsivo
+- ✅ Animações sutis e modernas
+
+## 🎨 Design
+
+O site apresenta um design limpo, profissional e focado em desenvolvedores, com:
+
+- Gradientes modernos
+- Tipografia elegante
+- Componentes interativos
+- Terminal estilizado com animação de digitação
+- Efeitos hover suaves
+- Transições fluidas
+
+## 🛠️ Como executar
 
 ```bash
+# Instalar dependências
+npm install
+
+# Executar em modo desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build para produção
+npm run build
+
+# Executar versão de produção
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site estará disponível em [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Responsividade
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O site é totalmente responsivo e funciona perfeitamente em:
 
-## Learn More
+- 📱 Dispositivos móveis
+- 📱 Tablets
+- 💻 Desktops
+- 🖥️ Telas grandes
 
-To learn more about Next.js, take a look at the following resources:
+## 🌙 Modo Escuro
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Suporte completo a modo escuro/claro com:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Toggle no header
+- Detecção automática da preferência do sistema
+- Transições suaves entre temas
+- Cores otimizadas para ambos os modos
 
-## Deploy on Vercel
+## 📦 Estrutura do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/
+│   ├── globals.css       # Estilos globais e variáveis CSS
+│   ├── layout.tsx        # Layout principal com providers
+│   └── page.tsx          # Página inicial
+├── components/
+│   ├── header.tsx        # Header com navegação
+│   ├── hero-section.tsx  # Seção principal
+│   ├── features-section.tsx # Seção de funcionalidades
+│   ├── example-section.tsx  # Demonstração do terminal
+│   ├── installation-section.tsx # Instruções de instalação
+│   ├── footer.tsx        # Footer com links
+│   └── theme-provider.tsx # Provider do tema
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Seções do Site
+
+1. **Header**: Navegação sticky com logo, menu e toggle de tema
+2. **Hero**: Título principal, descrição e botões de ação
+3. **Features**: Cards destacando as principais funcionalidades
+4. **Exemplo**: Terminal animado mostrando o uso da ferramenta
+5. **Instalação**: Instruções de instalação com comandos copiáveis
+6. **Footer**: Links úteis e informações de contato
+
+---
+
+Desenvolvido com ❤️ para a comunidade React Native
